@@ -1,0 +1,788 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  body {
+    background-color: #020403;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+  /* Nav bar */
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5rem;
+  }
+  nav a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 8rem;
+  }
+  nav a:hover {
+    color: rgb(10, 184, 237);
+  }
+  /* Header */
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0%;
+  }
+  .imagen-de-Dan {
+    position: relative;
+    top: 6rem;
+  }
+  
+  h1 {
+    position: relative;
+    top: 5rem;
+    color: gray;
+    font-size: 3.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  h2 {
+    color: #ffffff;
+    font-size: 6rem;
+    text-align: center;
+  }
+  .ocupacion {
+    height: 10rem;
+    width: 45rem;
+    font-size: 5.5rem;
+    font-weight: bold;
+    position: relative;
+    top: 5rem;
+  }
+  .texto1-ocupacion {
+    position: relative;
+    right: 2rem;
+    bottom: 5rem;
+  }
+  .texto-corrido2 {
+    position: relative;
+    left: -1.2vh;
+    bottom: 3.5rem;
+  }
+  /* Social Media */
+  .container-social-media {
+    width: 48rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10rem;
+    position: relative;
+    top: 3rem;
+  }
+  /* About me */
+  .title-acerca-de-mi {
+    text-align: center;
+  }
+  .acerca-de-mi {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0rem 20rem 3rem 20rem;
+  }
+  p {
+    color: #ffffff;
+  }
+  h4 {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  /* Skills */
+  .habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .vector-circulo {
+    background-color: #020403;
+    border: 0.1rem rgb(255, 255, 255) solid;
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 68rem;
+    bottom: 25rem;
+    margin-left: 0rem;
+  }
+  .vector-circulo2 {
+    background-color: #020403;
+    border: 0.1rem rgb(255, 255, 255) solid;
+    border-radius: 50%;
+    height: 17rem;
+    width: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .vector-circulo3 {
+    background-color: #020403;
+    border: 0.1rem rgb(255, 255, 255) solid;
+    border-radius: 50%;
+    height: 14rem;
+    width: 14rem;
+  }
+  .mobile-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 12rem;
+    top: 7rem;
+  }
+  .motion-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -10rem;
+    top: 7rem;
+  }
+  .creacion-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 16rem;
+    top: 7rem;
+  }
+  .dev-web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 10rem;
+    top: 7rem;
+  }
+  .mis-habilidades-fila1 {
+    box-sizing: border-box;
+    width: 80rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12.5rem;
+    margin-bottom: 10rem;
+  }
+  .mis-habilidades-fila2 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80rem;
+    padding-left: 12.5rem;
+  }
+  .title-mis-habilidades {
+    text-align: center;
+  }
+  .cuadro-habilidades {
+    display: flex;
+    justify-content: space-around;
+  }
+  .circule-habilidades {
+    background-color: rgb(118, 116, 116);
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  /* Experience */
+  .exp {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .container-exp {
+    margin-top: 2rem;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ocupacion-exp {
+    display: inline-block;
+    font-size: 3rem;
+    position: relative;
+    top: 15rem;
+    left: 40rem;
+  }
+  .ocupacion-exp2 {
+    display: inline-block;
+    font-size: 3rem;
+    position: relative;
+    top: 1rem;
+    left: 40rem;
+  }
+  .ocupacion-exp3 {
+    display: inline-block;
+    font-size: 3rem;
+    position: relative;
+    top: -13rem;
+    left: 40rem;
+  }
+  .company {
+    display: block;
+    font-size: light;
+    font-weight: 200;
+  }
+  .company-name {
+    display: inline-block;
+    font-size: 3rem;
+    position: relative;
+    top: 18rem;
+    left: 19.3rem;
+  }
+  .company-name2 {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 200;
+    position: relative;
+    top: 4rem;
+    left: 16.3rem;
+  }
+  .company-name3 {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 200;
+    position: relative;
+    top: -10rem;
+    left: 24rem;
+  }
+  .company-date {
+    font-size: 3rem;
+    font-weight: 200;
+    position: relative;
+    top: 8rem;
+    left: 0rem;
+  }
+  .company-date2 {
+    display: block;
+    font-size: 3rem;
+    font-weight: 200;
+    position: relative;
+    top: -6rem;
+  }
+  .company-date3 {
+    display: block;
+    font-size: 3rem;
+    font-weight: 200;
+    position: relative;
+    top: -20rem;
+  }
+  h5 {
+    color: #ffffff;
+    font-weight: 100;
+  }
+  .line {
+    background-color: rgba(242, 238, 238, 0.39);
+    height: 0.1rem;
+    width: 80rem;
+    position: relative;
+    top: 3rem;
+  }
+  .line2 {
+    background-color: rgba(242, 238, 238, 0.39);
+    height: 2px;
+    width: 80rem;
+    position: relative;
+    top: -11rem;
+  }
+  /* portfolio*/
+  .contenedor-del-vector-port {
+    position: relative;
+    right: 7rem;
+    bottom: 7rem;
+  }
+  .vector-circulo-port {
+    background-color: #020403;
+    border: 0.1rem rgb(255, 255, 255) solid;
+    border-radius: 50%;
+    height: 23rem;
+    width: 23rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .vector-circulo2-port {
+    background-color: #020403;
+    border: 0.1rem rgb(255, 255, 255) solid;
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .vector-circulo3-port {
+    background-color: #020403;
+    border: 0.1rem rgb(255, 255, 255) solid;
+    border-radius: 50%;
+    height: 17rem;
+    width: 17rem;
+  }
+  .portafolio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .title-portafolio {
+    text-align: center;
+  }
+  .ejemplo-portafolio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  .separador-portafolio {
+    margin-right: 6rem;
+  }
+  .imagen-portafolio {
+    height: 25rem;
+    width: 35rem;
+  }
+  /* Contact*/
+  .title-contacto {
+    text-align: center;
+  }
+  #section-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactos {
+    width: 60rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .circulo-contact {
+    border: 0.2rem solid white;
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .border-contactos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .vía-contacto {
+    margin-bottom: 1rem;
+    font-weight: 900;
+    font-size: 3rem;
+  }
+  .address-num {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  /* Footer */
+  .foot {
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+  @media (min-width: 1280px) {
+    nav svg {
+      display: none;
+    }
+    #mobile {
+      display: none;
+    }
+  }
+  @media (max-width: 375px) {
+    html {
+      box-sizing: border-box;
+      overflow-x: hidden;
+      width: 375px;
+    }
+    body{
+      overflow-x: hidden;
+    }
+    /* nav-bar*/
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 0;
+    }
+    nav a {
+      display: none;
+    }
+    nav svg {
+      margin-top: -35px;
+      margin-right: -25px;
+      padding: 8px;
+    }
+    /* header */
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    #web {
+      display: none;
+    }
+    #mobile {
+      margin-top: -85px;
+    }
+    h1 {
+      padding-top: 20px;
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    .job-ocupation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 10px;
+    }
+    .texto1-ocupacion {
+      text-align: center;
+      margin-left: 30px;
+    }
+    .ocupacion {
+      font-size: 3.5rem;
+      text-align: center;
+      padding: 10px 80px 120px 80px;
+    }
+    .texto-corrido2 {
+      margin-left: 11px;
+    }
+    .mobile-web {
+      position: relative;
+      top: 10px;
+    }
+    .container-social-media {
+      width: 25rem;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 5rem;
+      position: relative;
+      top: 1.5rem;
+    }
+    /* about me */
+    .title-acerca-de-mi {
+      text-align: center;
+      font-size: 4rem;
+    }
+    .acerca-de-mi {
+      text-align: center;
+      font-size: 1.3rem;
+      padding: 0rem 2rem 3rem 2rem;
+    }
+    .title-mis-habilidades {
+      font-size: 4rem;
+    }
+    .vector-circulo {
+      background-color: #020403;
+      border: 0.1rem rgb(255, 255, 255) solid;
+      border-radius: 50%;
+      height: 10rem;
+      width: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: 18rem;
+      bottom: 116rem;
+    }
+    .vector-circulo2 {
+      background-color: #020403;
+      border: 0.1rem rgb(255, 255, 255) solid;
+      border-radius: 50%;
+      height: 8rem;
+      width: 8rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .vector-circulo3 {
+      background-color: #020403;
+      border: 0.1rem rgb(255, 255, 255) solid;
+      border-radius: 50%;
+      height: 6rem;
+      width: 6rem;
+    }
+    .mobile-app {
+      text-align: center;
+      margin-top: -5rem;
+    }
+    .motion-design {
+      text-align: center;
+      margin-top: -5rem;
+      margin-right: 2rem;
+    }
+    .creacion-design {
+      text-align: center;
+      margin-top: -5rem;
+      margin-right: -18rem;
+    }
+    .dev-web {
+      text-align: center;
+      margin-top: -5rem;
+      margin-right: -6rem;
+    }
+    .circule-habilidades {
+      background-color: rgb(118, 116, 116);
+      border-radius: 50%;
+      height: 10rem;
+      width: 10rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      margin-bottom: 7rem;
+    }
+    .mis-habilidades-fila1 {
+      width: 80rem;
+      height: 45rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 12.5rem;
+      margin-bottom: 10rem;
+    }
+    .mis-habilidades-fila2 {
+      width: 80rem;
+      height: 45rem;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      width: 50rem;
+      padding-left: 5rem;
+      position: relative;
+      top:-10rem;
+    }
+    .exp{
+      margin-top: -7rem;
+      font-size: 4rem;
+    }
+    .container-exp{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .ocupacion-exp {
+      display: inline-block;
+      font-size: 2rem;
+      position: relative;
+      top: 9rem;
+      left: 19rem;
+    }
+    .company-name {
+      display: inline-block;
+      font-size: 1.5rem;
+      position: relative;
+      top: 11rem;
+      left: 5rem;
+    }
+    .company-date {
+      font-size: 2rem;
+      font-weight: 200;
+      position: relative;
+      top: 1rem;
+      left: 2rem;
+    }
+    .line {
+      background-color: rgba(242, 238, 238, 0.39);
+      height: 0.1rem;
+      width: 34rem;
+      position: relative;
+      top: 1.5rem;
+      left: 1rem;
+    }
+    .ocupacion-exp2 {
+      display: inline-block;
+      font-size: 2rem;
+      position: relative;
+      top: 1rem;
+      left: 19rem;
+    }
+    .company-name2 {
+      display: inline-block;
+      font-size: 1.5rem;
+      font-weight: 200;
+      position: relative;
+      top: 3rem;
+      left: 3rem;
+    }
+    .company-date2 {
+      font-size: 2rem;
+      font-weight: 200;
+      position: relative;
+      top: -7rem;
+      left: 2rem;
+    }
+    .line2 {
+      background-color: rgba(242, 238, 238, 0.39);
+      display: inline-block;
+      height: 0.1rem;
+      width: 34rem;
+      position: relative;
+      top: -8rem;
+      left:1rem
+    }
+    .ocupacion-exp3 {
+      display: inline-block;
+      font-size: 2rem;
+      position: relative;
+      top: -9rem;
+      left: 19rem;
+    }
+    .company-name3 {
+      display: inline-block;
+      font-size: 1.5rem;
+      font-weight: 200;
+      position: relative;
+      top: -7rem;
+      left: 8.2rem;
+    }
+    .company-date3 {
+      display: block;
+      font-size: 2rem;
+      font-weight: 200;
+      position: relative;
+      top: -17rem;
+      left:2rem
+    }
+    /* portafolio*/
+    .contenedor-del-vector-port {
+      position: relative;
+      right: 8rem;
+      top: -18rem;
+      left:-17rem
+    }
+    .vector-circulo-port {
+      background-color: #020403;
+      border: 0.1rem rgb(255, 255, 255) solid;
+      border-radius: 50%;
+      height: 16rem;
+      width: 16rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .vector-circulo2-port {
+      background-color: #020403;
+      border: 0.1rem rgb(255, 255, 255) solid;
+      border-radius: 50%;
+      height: 14rem;
+      width: 14rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .vector-circulo3-port {
+      background-color: #020403;
+      border: 0.1rem rgb(255, 255, 255) solid;
+      border-radius: 50%;
+      height: 12rem;
+      width: 12rem;
+    }
+    .title-portafolio{
+      font-size: 4rem;
+      position: relative;
+      left: -5rem;
+      top:4rem
+    }
+    .portafolio {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .title-portafolio {
+      text-align: center;
+    }
+    .ejemplo-portafolio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-left: 6rem;
+      position: relative;
+      top:-10rem;
+    }
+    .imagen-portafolio {
+      height: 20rem;
+      width: 30rem;
+    }
+    .separador-portafolio {
+      margin-bottom: 3rem;
+    }
+    /* contactos */
+    #section-contact {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .title-contacto{
+      font-size: 4rem;
+      margin-right: 15rem;
+    }
+    .contactos {
+      width: 43rem;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .circulo-contact {
+      border: 0.2rem solid white;
+      border-radius: 50%;
+      height: 8rem;
+      width: 8rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .border-contactos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 3%;
+    }
+    .vía-contacto {
+      margin-bottom: 1rem;
+      font-weight: 900;
+    }
+    .address-num {
+      margin-top: 1rem;
+      text-decoration: none;
+    }
+  }
+  
